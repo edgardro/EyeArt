@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  margin: 0px;
   /*font-family: Helvetica;*/
   /*background-color: #AFB5BA;*/
   /*background-color: #33404d;*/
@@ -10,6 +10,7 @@ body {
   -webkit-text-size-adjust: none;*/
   /*overflow: hidden;*/
   width: 100%;
+  padding: 0px;
   /*height: 100%;*/
   height: auto;
   /*min-height: 100%;*/
@@ -187,7 +188,7 @@ h2 {
   /*background-size: auto 100px;*/
   /*background-color: gray;*/
   /*opacity: 2.0;*/
-  margin-top: 0px;
+  margin: 0px;
   padding: 0px;
   position: relative;
   
