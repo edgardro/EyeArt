@@ -10,7 +10,7 @@ body {
   -webkit-text-size-adjust: none;*/
   /*overflow: hidden;*/
   width: 100%;
-  padding: 0px;
+  /*padding: 0px;*/
   /*height: 100%;*/
   height: auto;
   /*min-height: 100%;*/
@@ -24,10 +24,16 @@ body {
   z-index: -1;
   overflow-y: auto;
   /*margin: 0 auto 0 auto;*/
-overflow-x: hidden;
+  overflow-x: hidden;
+    position:relative;
+    min-width: 100%;
 
-  
-}  
+
+  }  
+
+  html {
+    overflow-x: hidden
+  }
 
 
 .navnavbar-nav {
