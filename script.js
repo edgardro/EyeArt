@@ -28,18 +28,14 @@ myApp.config(function ($routeProvider, $locationProvider) {
    $scope.template={
      
      
-     "portraits":"portraits.html",
+     
      "photography":"photography.html",
      "boysart":"boysart.html",
      "girlsart":"girlsart.html",
+     "portraits":"portraits.html",
      "myart":"myart.html",
-     "ali":"ali.html",
      "art":"art.html",
-     "interior":"interior.html",
-     "exhibitions":"exhibitions.html",
-     "travel":"travel.html",
-     "jsonartnewphoto":"jsonartnewphoto.html",
-     "video":"video.html"
+     "ali":"ali.html"
 
      
    }

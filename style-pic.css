@@ -111,11 +111,11 @@ padding-right: 0;
 }
 
 #albumImage img {
-    display: block;
+ /*   display: block;
     margin: auto;
-    height: 360px;
-    width: 90%;
-    position: relative;
+    height: 360px;*/
+    /*width: 90%;*/
+    /*position: relative;*/
     margin-left: auto;
     margin-right: auto;
     padding: 14px;
@@ -123,6 +123,13 @@ padding-right: 0;
      /*border-bottom: 3px solid #000000;
      border-top: 3px solid #000000;*/
     /*border-bottom: 1px solid #ffffff;*/
+
+     display: block;
+    max-width: 100%;
+    max-height: 90%;
+    width: auto;
+    height: auto;
+    position: relative;
 
     
 }
@@ -273,14 +280,14 @@ height: 400px;*/
     z-index: 1;
 }
 .arrow.prev {
-   background-image: url("../www/imagesUI/arrowleft.png");
+   background-image: url("imagesUI/arrowleft.png");
     /*left: 20px;*/
     opacity: 0;
     margin-left: 12px;
     /*transition: all 0.2s linear 0s;*/
 }
 .arrow.next {
-    background-image: url("../www/imagesUI/arrowright.png");
+    background-image: url("imagesUI/arrowright.png");
     opacity: 0;
     /*right: 20px;*/
     margin-left: 250px;
@@ -444,7 +451,7 @@ height: auto;
   
   /*background-color: white;*/
   background-color: rgba(255, 255, 255, .2);
-  background-image:  url("../www/imagesUI/arrowback.png");
+  background-image:  url("imagesUI/arrowback.png");
    left: 20px;
   top: 15px;
 

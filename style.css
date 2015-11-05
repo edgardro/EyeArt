@@ -187,7 +187,7 @@ h2 {
 
 .navnavbar-nav {
 
-     background-image: url('../www/imagesUI/AliBanner3.png');
+     background-image: url('imagesUI/AliBanner3.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
 
@@ -485,7 +485,7 @@ border-radius: -5px;
   
   /*background-color: white;*/
   background-color: rgba(255, 255, 255, .2);
-  background-image:  url("../www/imagesUI/arrowback.png");
+  background-image:  url("imagesUI/arrowback.png");
    left: 20px;
   top: 15px;
 
